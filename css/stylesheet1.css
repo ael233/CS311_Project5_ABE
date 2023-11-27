@@ -1,0 +1,34 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #752936;
+}
+
+.centered-title{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    color:#ffffff;
+}
+
+.hidden{
+    display: none;
+    color: #ffffff;
+}
+
+#entryForm, #madLibOutput{
+    margin: 10px;
+    color: #ffffff;
+}
+
+input[type="text"]{
+    margin: 5px;
+}
